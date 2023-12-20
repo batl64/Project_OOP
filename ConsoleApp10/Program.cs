@@ -62,6 +62,7 @@ namespace ConsoleApp10
                         exit1 = false;
                         while (!exit1)
                         {
+                            size = 0;
                             foreach (TypeAircraft f in Enum.GetValues(typeof(TypeAircraft)))
                             {
                                 Console.WriteLine(size++ + ". " + f);
